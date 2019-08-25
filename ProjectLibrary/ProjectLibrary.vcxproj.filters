@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\mathematics">
+      <UniqueIdentifier>{0dd97aec-d398-470e-90eb-fdfce75e15eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\patterns">
+      <UniqueIdentifier>{dd0a1f52-367f-4d2c-8758-16ca9c4114a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\console-public">
+      <UniqueIdentifier>{a130d3a3-a280-47a1-ac7b-5dad07a59ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\console-system">
+      <UniqueIdentifier>{a633c467-e7a3-400c-af13-db302483419b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mvc">
+      <UniqueIdentifier>{5aa2165c-b6b2-4acf-a23f-9f7fb34dbe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\patterns\command-subclasses">
+      <UniqueIdentifier>{5dc10187-62ae-4f7f-9c3a-e9113fb5295f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mvc\mvccommands">
+      <UniqueIdentifier>{2ce5c254-9d53-428c-99df-31bd266012a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="numberIdentification.cpp">
+      <Filter>Source Files\mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="singleton.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleKeyboard.cpp">
+      <Filter>Source Files\console-public</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleOutput.cpp">
+      <Filter>Source Files\console-public</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleMouse.cpp">
+      <Filter>Source Files\console-public</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleKeyboard-system.cpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleMouse-system.cpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleOutput-system.cpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClCompile>
+    <ClCompile Include="console-error.cpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleConstruct.cpp">
+      <Filter>Source Files\console-public</Filter>
+    </ClCompile>
+    <ClCompile Include="console-state-system.cpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClCompile>
+    <ClCompile Include="view.cpp">
+      <Filter>Source Files\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="MVCApp.cpp">
+      <Filter>Source Files\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="redo-command.cpp">
+      <Filter>Source Files\patterns\command-subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="subject.cpp">
+      <Filter>Source Files\patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Source Files\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseApplicationCommand.cpp">
+      <Filter>Source Files\mvc\mvccommands</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\mvc</Filter>
+    </ClCompile>
+    <ClCompile Include="StartApplicationCommand.cpp">
+      <Filter>Source Files\mvc\mvccommands</Filter>
+    </ClCompile>
+    <ClCompile Include="command-target.cpp">
+      <Filter>Source Files\mvc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mathematics\numberidentification.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\patterns\singleton.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\console-utilities\console.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console-error.hpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleKeyboard-system.hpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleMouse-system.hpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleOutput-system.hpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClInclude>
+    <ClInclude Include="console-state-system.hpp">
+      <Filter>Source Files\console-system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mvc\controller.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mvc\model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mvc\view.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\patterns\observer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\patterns\subject.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mvc\MVCApp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\console-utilities\consoleApp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\patterns\command.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\patterns\command-target.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mvc\mvccommands\MVCCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mvc\mvccommands\CloseApplicationCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projectlibrary-dist\include\cox\mvc\mvccommands\StartApplicationCommand.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

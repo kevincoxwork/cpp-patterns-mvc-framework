@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{bb583c4d-7408-4e77-92b7-d2a16a2ee640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{df7ec700-66cf-4f0a-b6f6-eb35d59a4bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{2db2d47d-fc3d-4d2e-9271-248980ab8a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Headers">
+      <UniqueIdentifier>{3e523c56-8cea-4c75-a2fa-8b0a8e6466aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Source">
+      <UniqueIdentifier>{57b4848e-d299-484e-b33c-ff7f9bc4cfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MVCApp">
+      <UniqueIdentifier>{30fa8167-c9d6-47dd-9798-39d9e5dd7f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Source">
+      <UniqueIdentifier>{7dc638ba-d23a-45fe-99f0-c2cbcdf7e205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MVCApp\Headers">
+      <UniqueIdentifier>{71a1efa0-9def-4f11-ab8a-bd46cef98f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Headers">
+      <UniqueIdentifier>{5e5b5a27-bb2f-49da-85df-b7f980aa7fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MVCApp\Source">
+      <UniqueIdentifier>{804551c0-15ad-4d0c-aa4a-a96f18cd8095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Headers">
+      <UniqueIdentifier>{190c3d9f-4be4-46e9-9d33-535d59f081d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Source">
+      <UniqueIdentifier>{5b36f6a7-e71f-4ea6-a823-fea8a768078a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{8bab10b0-42aa-4e0d-a15a-32860fc89eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Headers">
+      <UniqueIdentifier>{8b723d63-7680-4a72-86cf-3eae1ef2cfc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Source">
+      <UniqueIdentifier>{89f71a37-dff6-4d29-ac84-a0b2115652db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GomokuBoardView.cpp">
+      <Filter>Source Files\View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GomokuMovesView.cpp">
+      <Filter>Source Files\View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GomokuScoreboardView.cpp">
+      <Filter>Source Files\View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GomokuGameModel.cpp">
+      <Filter>Source Files\Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GomokuMVCApplication.cpp">
+      <Filter>Source Files\MVCApp\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GomokuController.cpp">
+      <Filter>Source Files\Controller\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPressCommand.cpp">
+      <Filter>Source Files\Commands\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClickCommand.cpp">
+      <Filter>Source Files\Commands\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GomokuPlayerView.cpp">
+      <Filter>Source Files\View\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GomokuBoardView.hpp">
+      <Filter>Source Files\View\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GomokuMovesView.hpp">
+      <Filter>Source Files\View\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GomokuScoreboardView.hpp">
+      <Filter>Source Files\View\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GomokuGameModel.hpp">
+      <Filter>Source Files\Model\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GomokuMVCApplication.hpp">
+      <Filter>Source Files\MVCApp\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GomokuController.hpp">
+      <Filter>Source Files\Controller\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClickCommand.hpp">
+      <Filter>Source Files\Commands\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPressCommand.hpp">
+      <Filter>Source Files\Commands\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GomokuPlayerView.hpp">
+      <Filter>Source Files\View\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

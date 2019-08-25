@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{245943c2-85be-4d8a-8202-275bcc167c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{2f11e14a-7b33-4bf7-8a19-fb2fecf16976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{40636c3d-166c-40db-92ce-5f000a8ce93e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Headers">
+      <UniqueIdentifier>{980ceb23-091a-492d-a4bd-b597c8a82444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Source">
+      <UniqueIdentifier>{ea259897-4958-4edb-beb9-9df3b7e73aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Headers">
+      <UniqueIdentifier>{2ed636d0-41e2-45a7-b3bd-215531a26511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Source">
+      <UniqueIdentifier>{cd2ae5bd-e6a4-4982-8d7c-b42f850b99ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MVCApp">
+      <UniqueIdentifier>{2a713a2d-642d-4c90-bf53-8967b0b1c369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{99805207-7c43-4d79-9106-f1175f82f7f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PaintController.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintingModel.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CanvasView.cpp">
+      <Filter>Source Files\View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuView.cpp">
+      <Filter>Source Files\View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PaletteView.cpp">
+      <Filter>Source Files\View\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintMVCApp.cpp">
+      <Filter>Source Files\MVCApp</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseClickCommand.cpp">
+      <Filter>Source Files\Commands\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPressCommand.cpp">
+      <Filter>Source Files\Commands\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PaintController.hpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintingModel.hpp">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CanvasView.hpp">
+      <Filter>Source Files\View\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuView.hpp">
+      <Filter>Source Files\View\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PaletteView.hpp">
+      <Filter>Source Files\View\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintMVCApp.hpp">
+      <Filter>Source Files\MVCApp</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseClickCommand.hpp">
+      <Filter>Source Files\Commands\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPressCommand.hpp">
+      <Filter>Source Files\Commands\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
